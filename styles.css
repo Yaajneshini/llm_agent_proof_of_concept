@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f9fa;
+}
+.messages {
+  height: 400px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  padding: 10px;
+  background: #fff;
+}
+.msg {
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.msg.user {
+  background: #d1e7dd;
+  text-align: right;
+}
+.msg.assistant {
+  background: #e2e3e5;
+}
+.msg.tool {
+  background: #cff4fc;
+}
+.msg.error {
+  background: #f8d7da;
+}
